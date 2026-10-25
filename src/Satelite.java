@@ -4,4 +4,10 @@ public class Satelite implements Tracker {
         return new Position() {
         };
     }
+
+    @Override
+    public Position position(long longitude, long latitude) {
+        return new Position() {
+        };
+    }
 }
